@@ -1,0 +1,46 @@
+TAP version 13
+# Subtest: ready, play, pause, resume, restart are guarded
+ok 1 - ready, play, pause, resume, restart are guarded
+  ---
+  duration_ms: 0.953328
+  type: 'test'
+  ...
+# Subtest: valid win and loss edges
+ok 2 - valid win and loss edges
+  ---
+  duration_ms: 0.454031
+  type: 'test'
+  ...
+# Subtest: scoring requires playing state and correct packet
+ok 3 - scoring requires playing state and correct packet
+  ---
+  duration_ms: 0.329126
+  type: 'test'
+  ...
+# Subtest: progression at exact 8-match boundaries and capped level
+ok 4 - progression at exact 8-match boundaries and capped level
+  ---
+  duration_ms: 0.367433
+  type: 'test'
+  ...
+# Subtest: restart recreates run counters, retains preferences separately
+ok 5 - restart recreates run counters, retains preferences separately
+  ---
+  duration_ms: 0.288977
+  type: 'test'
+  ...
+# Subtest: invalid/corrupt storage values use safe defaults
+ok 6 - invalid/corrupt storage values use safe defaults
+  ---
+  duration_ms: 0.793282
+  type: 'test'
+  ...
+1..6
+# tests 6
+# suites 0
+# pass 6
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 97.503084
